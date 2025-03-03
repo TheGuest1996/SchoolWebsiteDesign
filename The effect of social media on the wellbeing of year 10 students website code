@@ -99,7 +99,7 @@
 <body>
     <button class="menu-button" onclick="toggleMenu()">☰</button>
     <div id="menu" class="menu">
-        <a href="#home" onclick="toggleMenu()">Home</a>
+        <a href="#home" onclick="toggleMenu()">☰</a>
         <a href="#introduction" onclick="toggleMenu()">Introduction</a>
         <a href="#usage" onclick="toggleMenu()">Social Media Usage</a>
         <a href="#limitsbiases" onclick="toggleMenu()">Limitations & Biases</a>
