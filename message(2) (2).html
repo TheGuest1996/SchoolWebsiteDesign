@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Analysis</title>
+    <style>
+        body {
+            background-color: #030707;
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #42656f;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        a:link {
+            color: #42656f;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #42656f;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #42656f;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #42656f;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        .menu-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .menu {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background-color: #42656f;
+            padding-top: 50px;
+        }
+        .menu a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #030707;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+         function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <button class="menu-button" onclick="toggleMenu()">☰</button>
+    <div id="menu" class="menu">
+        <a href="#home" onclick="toggleMenu()">Home</a>
+        <a href="#introduction" onclick="toggleMenu()">Introduction</a>
+        <a href="#usage" onclick="toggleMenu()">Social Media Usage</a>
+        <a href="#limitsbiases" onclick="toggleMenu()">Limitations & Biases</a>
+        <a href="#conclusion" onclick="toggleMenu()">Conclusion</a>
+        <a href="#bibliography" onclick="toggleMenu()">Bibliography</a>
+        <a href="#conclusion" onclick="toggleMenu()">Consss</a>
+        <a href="#bibliography" onclick="toggleMenu()">Bibsssphy</a>
+    </div>
+    <section id="home">
+        <header>
+            <h1>Social Media's Effect on Teen Well-being</h1>
+        </header>
+    </section>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Social media use among teenagers is widespread, with many spending hours scrolling
+            through platforms like TikTok, Instagram, and X (formerly Twitter). Concerns have grown over
+            the potential negative impacts of prolonged social media use on young people’s mental health
+            and well-being. While some studies highlight the positive aspects of social media, such as
+            fostering connections, others point to risks lke social stigma, anxiety, and low self-esteem.
+            The data collected was from two different sources, one of which was from Generation Survey
+            and the other was from Pew Research Center. The data gathered from Generation Survey was
+            available through their website. It is a large survey conducted in 2024 to explore the impact of
+            social media use on the well-being of young people that targeted 3,785 Year 10 students
+            across 340 Australian schools.
+            The data gathered from Pew Research Center was available online. The sample consisted of
+            1,316 U.S. teens aged 13 to 17, along with one parent from each teen’s household in 2022.</p>
+    </section>
+
+			<img src="images/https://raw.githubusercontent.com/TheGuest1996/SchoolWebsiteDesign/refs/heads/main/uload%20to%20github.webp" width="200">
+
+
+    <section id="usage">
+        <h2>How often do teens use social media</h2>
+        <p>Details on platform preferences and usage patterns.</p>
+    </section>
+
+    <section id="limitsbiases">
+        <h2>Limitations and Biases</h2>
+        <p>Since the data relies on self-reported responses, certain limitations
+            and biases must be acknowledged. Research (Boyle et al., 2022), has
+            shown that many teenagers struggle to accurately recall which social
+            media platforms they've used over a set period. Additionally,
+            adolescents often overestimate their average daily screen time,
+            leading to potential inaccuracies. Factors like the type of platform,
+            gender, and the number of platforms a participant regularly uses can
+            further influence self-reporting accuracy.Consequently, survey-based
+            studies may be subject to biases that affect the validity of conclusions
+            regarding social media’s impact on adolescent well-being</p>
+    </section>
+
+    <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>In conclusion, the data highlights clear trends in social media usage
+            and its impact on adolescent well-being. Platforms with engagement-
+            driven algorithms, like Instagram and TikTok, are the most widely used
+            but are often linked to LS for certain groups, particularly female and
+            non-binary users. In contrast, platforms like Discord and Reddit, while
+            less popular, offer community-based spaces that may serve as safe
+            environments for marginalised users, though they do not always
+            correlate with higher LS.
+            Overall, the findings suggest that the design and nature of each
+            platform significantly influence user well-being. While the data
+            provides valuable insights into these trends, the conclusions should be
+            considered within the context of the study’s methodology to fully
+            understand social media’s impact on adolescent life satisfaction</p>
+    </section>
+
+    <section id="bibliography">
+        <h2>Bibliography</h2>
+        <p>
+            Boyle, S. C., Baez, S., Trager, B. M., & LaBrie, J. W. (2022). Systematic bias in self-reported social
+            media use in the age of platform swinging: Implications for studying social media use in relation
+            to adolescent health behavior. International Journal of Environmental Research and Public Health,
+            19(16), 9847.   <a href="https://doi.org/10.3390/ijerph19169847">https://doi.org/10.3390/ijerph19169847</a>
+
+            Doery, K. (2024, September 10). Young people’s social media use—What impact does it have?
+            What Young Australia Thinks. <a href=" https://generationsurvey.org.au/data_story/social-media-use-and-
+            life-satisfaction/"> https://generationsurvey.org.au/data_story/social-media-use-and-
+            life-satisfaction/</a>
+
+            Office of the Surgeon General (OSG). (2023). Social media has both positive and negative impacts 
+            on children and adolescents. US Department of Health and Human Services. <a href=" https://www.ncbi.nlm.nih.gov/books/NBK594763/"> 
+            https://www.ncbi.nlm.nih.gov/books/NBK594763/</a>
+
+            Rasmussen, E. E., Punyanunt-Carter, N., LaFreniere, J. R., Norman, M. S., & Kimball, T. G. (2020).
+            The serially mediated relationship between emerging adults’ social media use and mental well-
+            being. Computers in Human Behavior, 102(1), 206–213. <a href="https://doi.org/10.1016/j.chb.2019.08.019">https://doi.org/10.1016/j.chb.2019.08.019</a>
+
+            Verbeij, T., Pouwels, J. L., Beyens, I., & Valkenburg, P. M. (2021). The accuracy and validity of self-
+            reported social media use measures among adolescents. Computers in Human Behavior Reports,
+            3(100090). <a href="https://doi.org/10.1016/j.chbr.2021.100090">https://doi.org/10.1016/j.chbr.2021.100090</a>
+
+            Vogels, E., & Gelles-Watnick, R. (2023, April 24). Teens and social media: Key findings from Pew
+            Research Center surveys. Pew Research Center. <a href="https://www.pewresearch.org/short-
+            reads/2023/04/24/teens-and-social-media-key-findings-from-pew-research-center-surveys/">https://www.pewresearch.org/short-
+            reads/2023/04/24/teens-and-social-media-key-findings-from-pew-research-center-surveys/</a>
+        
+        
+        </p>
+    </section>
+
+    <section id="conclusion">
+        <h2></h2>
+        <p></p>
+    </section>
+
+    <section id="bibliography">
+        <h2></h2>
+        <p></p>
+    </section>
+</body>
+</html>
