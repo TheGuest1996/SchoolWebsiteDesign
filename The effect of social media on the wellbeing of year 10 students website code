@@ -98,6 +98,10 @@
             margin-right: auto;
             width: 90px;
         }
+		.apa-reference {
+    padding-left: 36px
+    text-indent: -36px
+		} 
     </style>
     <script>
          function toggleMenu() {
@@ -192,55 +196,56 @@
 
     <section id="bibliography">
         <h2>Bibliography</h2>
-        <p>
+		
+        <p class =”apa-reference”>
             Boyle, S. C., Baez, S., Trager, B. M., & LaBrie, J. W. (2022). Systematic bias in self-reported social
             media use in the age of platform swinging: Implications for studying social media use in relation
             to adolescent health behavior. International Journal of Environmental Research and Public Health,
             19(16), 9847.   <a href="https://doi.org/10.3390/ijerph19169847">https://doi.org/10.3390/ijerph19169847</a>
-
+		</p>
             <br>
             <br>
-
+		<p class =”apa-reference”>
             Doery, K. (2024, September 10). Young people’s social media use—What impact does it have?
             What Young Australia Thinks. <a href=" https://generationsurvey.org.au/data_story/social-media-use-and-
             life-satisfaction/"> https://generationsurvey.org.au/data_story/social-media-use-and-
             life-satisfaction/</a>
-
+		</p>
             <br>
             <br>
 
-
+		<p class =”apa-reference”>
 
             Office of the Surgeon General (OSG). (2023). Social media has both positive and negative impacts 
             on children and adolescents. US Department of Health and Human Services. <a href=" https://www.ncbi.nlm.nih.gov/books/NBK594763/"> 
             https://www.ncbi.nlm.nih.gov/books/NBK594763/</a>
-
+		</p>
             <br>
             <br>
-
+		<p class =”apa-reference”>
             Rasmussen, E. E., Punyanunt-Carter, N., LaFreniere, J. R., Norman, M. S., & Kimball, T. G. (2020).
             The serially mediated relationship between emerging adults’ social media use and mental well-
             being. Computers in Human Behavior, 102(1), 206–213. <a href="https://doi.org/10.1016/j.chb.2019.08.019">https://doi.org/10.1016/j.chb.2019.08.019</a>
-
+		</p>
             <br>
             <br>
-
+		<p class =”apa-reference”>
             Verbeij, T., Pouwels, J. L., Beyens, I., & Valkenburg, P. M. (2021). The accuracy and validity of self-
             reported social media use measures among adolescents. Computers in Human Behavior Reports,
             3(100090). <a href="https://doi.org/10.1016/j.chbr.2021.100090">https://doi.org/10.1016/j.chbr.2021.100090</a>
-
+		</p>
             <br>
             <br>
-
+		<p class =”apa-reference”>
             Vogels, E., & Gelles-Watnick, R. (2023, April 24). Teens and social media: Key findings from Pew
             Research Center surveys. Pew Research Center. <a href="https://www.pewresearch.org/short-
             reads/2023/04/24/teens-and-social-media-key-findings-from-pew-research-center-surveys/">https://www.pewresearch.org/short-
             reads/2023/04/24/teens-and-social-media-key-findings-from-pew-research-center-surveys/</a>
-
+		</p>
             <br>
             <br>
         
-        </p>
+        
     </section>
 
     <section id="conclusion">
