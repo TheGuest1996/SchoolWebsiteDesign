@@ -22,6 +22,7 @@
             font-family: 'Times New Roman', Times, serif;
             font-size: 50px;
             text-align: center;
+            color: white;
         }
 
         h2 {
@@ -94,14 +95,28 @@
         }
         .center{
             display: block;
-            margin-left: auto;
-            margin-right: auto;
+            text-align: center;
+            margin: auto;
             width: 90px;
         }
-		.apa-reference {
-    padding-left: 36px
-    text-indent: -36px
-		} 
+        .rightclickimg{
+            float: right;
+            display: block;
+            width: 90px;
+        }
+        .centerimg{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 700px;
+        }
+
+        .apa-reference {
+            padding-left: 36px;
+            text-indent: -36px;
+            text-align: left;
+        }
+
     </style>
     <script>
          function toggleMenu() {
@@ -120,10 +135,10 @@
         <a href="#home" onclick="toggleMenu()">☰</a>
         <a href="#introduction" onclick="toggleMenu()">Introduction</a>
         <a href="#usage" onclick="toggleMenu()">Social Media Usage</a>
+        <a href="#impactlifesatisfaction" onclick="toggleMenu()">Impact on life satisfaction</a>
         <a href="#limitsbiases" onclick="toggleMenu()">Limitations & Biases</a>
         <a href="#conclusion" onclick="toggleMenu()">Conclusion</a>
         <a href="#bibliography" onclick="toggleMenu()">Bibliography</a>
-        <a href="#conclusion" onclick="toggleMenu()">Consss</a>
         <a href="#bibliography" onclick="toggleMenu()">Bibsssphy</a>
     </div>
     <section id="home">
@@ -131,9 +146,9 @@
             <h1>Social Media's Effect on Teen Well-being</h1>
         </header>
     </section>
-    <hr>
-    <br>
-    <br>
+<hr>
+<br>
+<br>
     <section id="introduction">
         <p>Social media use among teenagers is widespread, with many spending hours scrolling
             through platforms like TikTok, Instagram, and X (formerly Twitter). Concerns have grown over
@@ -150,15 +165,46 @@
     </section>
 
 <img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/go%20down%20animation%20.gif?raw=true" class="center">
+<br>
+
 
     <section id="usage">
-        <h2>How often do teens use social media</h2>
-        <p>Details on platform preferences and usage patterns.
+        <h2>How often do teens use social media?</h2>
+        <p>
+            <img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/How%20often%20do%20teenagers%20use%20social%20media_%20.png?raw=true" class="centerimg">
+            <br>
+            <img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/click%20image.png?raw=true" class="rightclickimg">
+            <br>
+            <br>
+            <br>
+            <img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/percentage%20of%20males%20and%20females%20that%20use%20a%20particular%20social%20media%20platfrom%20once%20a%20month%20or%20mor%20e.png?raw=true" class="centerimg">
+            <br>
+            <img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/click%20image.png?raw=true" class="rightclickimg">
         </p>
     </section>
 
 <img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/go%20down%20animation%20.gif?raw=true" class="center">
+<br>
 
+
+    <section id="impactlifesatisfaction">
+        <h2>What is the impact of social media on life satisfaction and their use?</h2>
+        <p>
+            <img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/Effect%20of%20social%20media%20on%20y10.jpg?raw=true" class="centerimg">
+            <br>
+            <img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/click%20image.png?raw=true" class="rightclickimg">
+            <br>
+            <br>
+            <br>
+            <img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/The%20effect%20of%20different%20social%20media%20on%20the%20total%20use%20of%20them.png?raw=true" class="centerimg">
+            <br>
+            <img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/click%20image.png?raw=true" class="rightclickimg">
+        </p>
+    </section>
+
+<img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/go%20down%20animation%20.gif?raw=true" class="center">
+<br>
+ 
     <section id="limitsbiases">
         <h2>Limitations and Biases</h2>
         <p>Since the data relies on self-reported responses, certain limitations
@@ -170,10 +216,12 @@
             gender, and the number of platforms a participant regularly uses can
             further influence self-reporting accuracy.Consequently, survey-based
             studies may be subject to biases that affect the validity of conclusions
-            regarding social media’s impact on adolescent well-being</p>
+            regarding social media’s impact on adolescent well-being
+        </p>
     </section>
 
 <img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/go%20down%20animation%20.gif?raw=true" class="center">
+<br>
 
     <section id="conclusion">
         <h2>Conclusion</h2>
@@ -185,6 +233,8 @@
             less popular, offer community-based spaces that may serve as safe
             environments for marginalised users, though they do not always
             correlate with higher LS.
+            <br>
+            <br>
             Overall, the findings suggest that the design and nature of each
             platform significantly influence user well-being. While the data
             provides valuable insights into these trends, the conclusions should be
@@ -192,57 +242,77 @@
             understand social media’s impact on adolescent life satisfaction</p>
     </section>
 
-    <img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/go%20down%20animation%20.gif?raw=true" class="center">
+<img src="https://github.com/TheGuest1996/SchoolWebsiteDesign/blob/main/go%20down%20animation%20.gif?raw=true" class="center">
+<br>
+
 
     <section id="bibliography">
         <h2>Bibliography</h2>
-		
-        <p class =”apa-reference”>
-            Boyle, S. C., Baez, S., Trager, B. M., & LaBrie, J. W. (2022). Systematic bias in self-reported social
+        <p class="apa-reference">
+
+            Boyle, S. C., Baez, S., Trager, B. M., & LaBrie, J. W. (2022). <br> Systematic bias in self-reported social
             media use in the age of platform swinging: Implications for studying social media use in relation
             to adolescent health behavior. International Journal of Environmental Research and Public Health,
             19(16), 9847.   <a href="https://doi.org/10.3390/ijerph19169847">https://doi.org/10.3390/ijerph19169847</a>
-		</p>
+
             <br>
             <br>
-		<p class =”apa-reference”>
-            Doery, K. (2024, September 10). Young people’s social media use—What impact does it have?
+            <br>
+        </p>
+
+        <p class="apa-reference">
+            Doery, K. (2024, September 10). <br> Young people’s social media use—What impact does it have?
             What Young Australia Thinks. <a href=" https://generationsurvey.org.au/data_story/social-media-use-and-
             life-satisfaction/"> https://generationsurvey.org.au/data_story/social-media-use-and-
             life-satisfaction/</a>
-		</p>
+
             <br>
             <br>
+            <br>
+        </p>
 
-		<p class =”apa-reference”>
-
-            Office of the Surgeon General (OSG). (2023). Social media has both positive and negative impacts 
+        <p class="apa-reference">
+            Office of the Surgeon General (OSG). (2023). <br> Social media has both positive and negative impacts 
             on children and adolescents. US Department of Health and Human Services. <a href=" https://www.ncbi.nlm.nih.gov/books/NBK594763/"> 
             https://www.ncbi.nlm.nih.gov/books/NBK594763/</a>
-		</p>
+
             <br>
             <br>
-		<p class =”apa-reference”>
-            Rasmussen, E. E., Punyanunt-Carter, N., LaFreniere, J. R., Norman, M. S., & Kimball, T. G. (2020).
+            <br>
+
+        </p>
+
+        <p class="apa-reference">
+            Rasmussen, E. E., Punyanunt-Carter, N., LaFreniere, J. R., Norman, M. S., & Kimball, T. G. (2020). <br>
             The serially mediated relationship between emerging adults’ social media use and mental well-
             being. Computers in Human Behavior, 102(1), 206–213. <a href="https://doi.org/10.1016/j.chb.2019.08.019">https://doi.org/10.1016/j.chb.2019.08.019</a>
-		</p>
+
             <br>
             <br>
-		<p class =”apa-reference”>
-            Verbeij, T., Pouwels, J. L., Beyens, I., & Valkenburg, P. M. (2021). The accuracy and validity of self-
+            <br>
+        </p>
+
+        <p class="apa-reference">
+            Verbeij, T., Pouwels, J. L., Beyens, I., & Valkenburg, P. M. (2021). <br> The accuracy and validity of self-
             reported social media use measures among adolescents. Computers in Human Behavior Reports,
             3(100090). <a href="https://doi.org/10.1016/j.chbr.2021.100090">https://doi.org/10.1016/j.chbr.2021.100090</a>
-		</p>
+
             <br>
             <br>
-		<p class =”apa-reference”>
-            Vogels, E., & Gelles-Watnick, R. (2023, April 24). Teens and social media: Key findings from Pew
+            <br>
+        </p>
+
+        <p class="apa-reference">
+            Vogels, E., & Gelles-Watnick, R. (2023, April 24). <br> Teens and social media: Key findings from Pew
             Research Center surveys. Pew Research Center. <a href="https://www.pewresearch.org/short-
             reads/2023/04/24/teens-and-social-media-key-findings-from-pew-research-center-surveys/">https://www.pewresearch.org/short-
             reads/2023/04/24/teens-and-social-media-key-findings-from-pew-research-center-surveys/</a>
-		</p>
+
             <br>
             <br>
+            <br>
+
+        </p>
+
 </body>
 </html>
