@@ -1,3 +1,7 @@
+To whomever this may concern,
+
+<br>
+
 This website was brought to you by an extremely passionate group of students.
 <br>
 The website itself is self explanatory.
@@ -17,4 +21,4 @@ TheGuest1996
 EdgeVelocity1
 <br>
 MakingWebsitesIsFUnn
--
+
