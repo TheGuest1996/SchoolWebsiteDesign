@@ -117,6 +117,16 @@
             text-align: left;
         }
 
+        .submenu {
+            display: none;
+            margin-left: 15px;
+        }
+        .arrow {
+            cursor: pointer;
+            font-size: 14px;
+            margin-left: 5px;
+        }
+
     </style>
     <script>
          function toggleMenu() {
@@ -127,24 +137,40 @@
                 menu.style.display = "block";
             }
         }
+        function toggleDropdown(id) {
+            var submenu = document.getElementById(id);
+            var arrow = submenu.previousElementSibling.querySelector(".arrow");
+            submenu.style.display = (submenu.style.display === "block") ? "none" : "block";
+            arrow.textContent = (submenu.style.display === "block") ? "⇊" : "⇇";
+        }
     </script>
 </head>
 <body>
+
     <button class="menu-button" onclick="toggleMenu()">☰</button>
     <div id="menu" class="menu">
         <a href="#home" onclick="toggleMenu()">☰</a>
         <a href="#home" onclick="toggleMenu()">Home</a>
         <a href="#introduction" onclick="toggleMenu()">Introduction</a>
-        <a href="#usage" onclick="toggleMenu()">Social Media Usage</a>
-        <a href="use.html" onclick="toggleMenu()">--How often teens use social media</a>
-        <a href="gender.html" onclick="toggleMenu()">--Usage of social media by gender</a>
-        <a href="#impactlifesatisfaction" onclick="toggleMenu()">Impact on life satisfaction</a>
-        <a href="life.html" onclick="toggleMenu()">--Effect on life satisfaction</a>
-        <a href="effect.html" onclick="toggleMenu()">--The effect of their use</a>
+        <div>
+            <a href="#usage" onclick="toggleDropdown('usageSub')">Social Media Usage <span class="arrow">^</span></a>
+            <div id="usageSub" class="submenu">
+                <a href="use.html" onclick="toggleMenu()">-How often teens use social media</a>
+                <a href="gender.html" onclick="toggleMenu()">-Usage of social media by gender</a>
+            </div>
+        </div>
+        <div>
+            <a href="#impactlifesatisfaction" onclick="toggleDropdown('impactSub')">Impact on Life Satisfaction <span class="arrow">^</span></a>
+            <div id="impactSub" class="submenu">
+                <a href="life.html" onclick="toggleMenu()">-Effect on life satisfaction</a>
+                <a href="effect.html" onclick="toggleMenu()">-The effect of their use</a>
+            </div>
+        </div>
         <a href="#limitsbiases" onclick="toggleMenu()">Limitations & Biases</a>
         <a href="#conclusion" onclick="toggleMenu()">Conclusion</a>
         <a href="#bibliography" onclick="toggleMenu()">Bibliography</a>
     </div>
+
     <section id="home">
         <header>
             <h1>Social Media's Effect on Teen Well-being</h1>
