@@ -1,4 +1,4 @@
-To whomever this may concern,
+To Whom it may concern,
 
 <br>
 
