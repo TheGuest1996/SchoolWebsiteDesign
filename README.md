@@ -8,6 +8,8 @@ To run the code, please download a copy of the code by clicking the green button
 <br>
 The website itself is self explanatory once you run the "index" file, which is also the home page of the website.
 <br>
+Don't forget to click the graphs to learn more about them (or click the hamburger menu, then the double arrows to go directly to the info)
+<br>
 Credits to w3 school and their html/css tutorials.
 <br>
 Feel free to take inspiration for your own website, as long as you credit us.
